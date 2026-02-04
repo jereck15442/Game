@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="box-0">
+            <div class="box-1">         
+         <p class="pointerpos"> Pointer Position: <span id="Positions"></span></p>
+        </div>
+
+        <div class="box-2">
+                   <p class="keypres-output">The key you pressed is:<span id="output"></span></p>
+        </div>
+
+        </div>
+
+        <div class="button-action">
+      <button
+        id="butt"
+        onclick="clicked()"
+        onmouseenter="hovered()"
+        onmouseleave="resetText()"
+      >
+        Click me
+      </button>
+
+      <p id="clickme"></p>
+    </div>
+    
+    </div>
+
+            <script src="game.js"></script>
+
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .container{
+            background-color: rgb(88, 231, 231);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box-0{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .box-1{
+            background-color: rgb(5, 51, 36);
+            color: aliceblue;
+            height: 350px;
+            width: 500px;
+            border-radius: 20px;
+            flex-direction: column;
+            text-align: center;
+            font-size: 30px;
+            flex: 1;
+        }
+
+        .box-2{
+            background-color: black;
+            height: 350px;
+            width: 500px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            flex: 1;
+        }
+
+        .keypres-output {
+        color: aliceblue;
+        text-align: center; 
+        margin-top: 70px;
+    }
+
+        .box-3{
+            background-color: rgb(218, 15, 15);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            gap: 10px;
+            padding: 40px 450px;
+            justify-content: center;
+        }
+
+     .button-action {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100rem;
+      border-radius: 10px;
+      background-color: greenyellow;
+    }
+
+    .button-action button {
+      width: 50%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+      .button-action button:hover {
+        background-color: black; 
+        transition: 0.3s ease;
+    } 
